@@ -14,8 +14,10 @@
 	
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"  />
-	
+
 	<allow-navigation href="*" />
+	<allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
 	<icon src="icon.png" />
 	<content src="index.html" />
 	<access origin="*" />
